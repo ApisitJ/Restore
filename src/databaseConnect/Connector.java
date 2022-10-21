@@ -23,6 +23,7 @@ public class Connector {
 		try {
 
 	//		Class.forName(driver);
+			
 			connection = DriverManager.getConnection(jdbcURL, username, password);
 		}catch (SQLException e) {
 			e.printStackTrace();
