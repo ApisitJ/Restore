@@ -1,7 +1,6 @@
 package state;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.DriverManager;
@@ -59,6 +58,7 @@ public class Restore {
 		  
 //		  File createFolder = new File("filePath");
 //		  createFolder.mkdir();
+		  
 		  String nameFolder= "filePath/FilePathMSISN" + formattedDate + ".txt";
 		  String msisn = "";
 		  
